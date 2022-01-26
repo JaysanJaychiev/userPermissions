@@ -8,6 +8,7 @@ DB_PASSWORD = os.environ.get('DB_PASSWORD')
 DB_HOST = os.environ.get('DB_HOST')
 DB_USER = os.environ.get('DB_USER')
 # SECRET_KEY = os.environ.get('SECRET_KEY')
+# google =  'django secret key generate'
 
 
 
@@ -136,8 +137,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
-# STATIC_URL = 'static/'
-STATIC_ROOT = BASE_DIR / 'staticfiles'
+STATIC_URL = 'static/'
+# STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
