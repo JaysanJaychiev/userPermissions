@@ -14,7 +14,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
