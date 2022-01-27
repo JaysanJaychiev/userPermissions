@@ -1,12 +1,9 @@
 from datetime import date
 from django.db import models
 
-# from django.contrib.auth.models import User
+# class CustomUser(AbstractUser):
+#     first_name = models.CharField(max_length=128, null=True)
+#     last_name = models.CharField(max_length=128, null=True)
 
-# borrower = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, blank=True)
-
-# @property
-# def is_overdue(self):
-#     if self.duo_back and date.today() > self.due_back:
-#         return True
-#     return False
+#     def __str__(self):
+#         return self.email
